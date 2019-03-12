@@ -6,6 +6,7 @@
     "axios": "^0.17.1",
     "babel-cli": "^6.26.0",
     "body-parser": "^1.18.2",
+    "ejs": "^2.6.1",
     "express": "^4.16.2",
     "mongoose": "^4.13.4",
     "nodemon": "^1.12.1",
@@ -17,7 +18,7 @@
     "react-scripts": "1.0.17"
   },
   "scripts": {
-      "webpack": "webpack",
-      "start": "npm run webpack && nodemon --exec babel-node -- bin/www"
-   }
+    "webpack": "webpack",
+    "start": "npm run webpack && nodemon --exec babel-node -- bin/www"
+  }
 }
